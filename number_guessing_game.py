@@ -10,9 +10,8 @@ if difficulty == "hard":
 else:
     attempts = 10
 
-import random
-number = random.randint(1, 100)
-print(number) 
+from random import randint
+number = randint(1, 100) 
 
 # If can change the while loop to function
 while True:
